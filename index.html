@@ -1,0 +1,29 @@
+<!--
+ * @Author: chenjz
+ * @Date: 2022-01-13 11:23:55
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Site</title>
+</head>
+
+<body>
+  <h1>你好，菜鸟！</h1>
+</body>
+
+<script>
+  var textElement = document.createElement('span');
+  textElement.innerHTML = '粤ICP备2021082125号-1';
+  textElement.style = "position:absolute;bottom:10px;left:50%;transform:translateX(-50%);"
+  var body = document.getElementsByTagName('body')[0];
+  body.append(textElement);
+
+</script>
+
+</html>
